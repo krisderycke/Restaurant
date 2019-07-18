@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Pinyon+Script|Source+Sans+Pro&display=swap");
+$titleColor: #c89446;
+$subColor: #383838;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+// Hamburger
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  position: relative;
+  z-index: -2;
+}
+
+//navbar
+.navbar {
+  display: flex;
+  //   flex-direction: column;
+  justify-content: space-between;
+  max-width: 1110px;
+  width: 100%;
+  align-items: center;
+  color: white;
+}
+.navbar {
+  position: absolute;
+}
+nav {
+  width: 615px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  li {
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      color: white;
+      font-style: normal;
+      font-weight: normal;
+      font-size: normal;
+      line-height: 18px;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+  }
+}
+
+//end navbar
+section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  //   background-color: pink;
+}
+
+.frame {
+  position: absolute;
+  left: 60px;
+  top: -21px;
+  border: 2px solid #c89446;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 350px;
+  height: 425px;
+  z-index: -1;
+}
+
+.hamburger {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  font-family: "Pinyon Script", cursive;
+  color: $titleColor;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text {
+  width: 445px;
+}
+
+h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: 2px;
+  color: $subColor;
+  text-transform: capitalize;
+}

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Pinyon+Script|Source+Sans+Pro&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  position: relative;
+  z-index: -2;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1110px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.navbar {
+  position: absolute;
+}
+
+nav {
+  width: 615px;
+}
+
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav-bar li {
+  list-style: none;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: normal;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.frame {
+  position: absolute;
+  left: 60px;
+  top: -21px;
+  border: 2px solid #c89446;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2px;
+  width: 350px;
+  height: 425px;
+  z-index: -1;
+}
+
+.hamburger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+h3 {
+  font-family: "Pinyon Script", cursive;
+  color: #c89446;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text {
+  width: 445px;
+}
+
+h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: 2px;
+  color: #383838;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=style.css.map */
